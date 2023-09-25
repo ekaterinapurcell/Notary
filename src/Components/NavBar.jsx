@@ -15,7 +15,7 @@ export default function NavBar() {
           {" "}
           <li className="menuitem">Servicii</li>
         </Link>
-        <li className="menuitem"> 0256-2-25-56</li>
+        <li className="menuitem"> 0256-2-25-58</li>
       </ul>
     </div>
   );

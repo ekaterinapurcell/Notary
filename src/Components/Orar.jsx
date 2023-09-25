@@ -3,7 +3,7 @@ import "./Orar.css";
 export default function orar() {
   return (
     <div className="allmain">
-      <h1> Orar de Lucru </h1>
+      <h1 className="titluorar"> Orar de lucru </h1>
       <div className="main">
         <div className="oraru">
           <div className={`contact-info-section`}>

@@ -6,6 +6,27 @@
   box-sizing: border-box;
 }
 
+
+a:link {
+  text-decoration: none;
+  color: var(--gray-scale-800, #4B4B4B);
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--gray-scale-800, #4B4B4B);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--gray-scale-800, #4B4B4B);
+}
+
+a:active {
+  text-decoration: none;
+  color: var(--gray-scale-800, #4B4B4B);
+}
+
 .navbar {
   font-family: "Sen";
   z-index: 1;
@@ -27,6 +48,7 @@
   display: flex;
   margin-left: auto;
   list-style: none;
+  margin-right: 5%;
 }
 
 .menuitem {

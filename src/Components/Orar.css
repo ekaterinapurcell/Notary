@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sen:wght@400;500&display=swap');
+
+
+.titluorar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ flex-shrink: 0;
+ margin-left: 90px;
+ margin-right: 90px;
+ margin-top: 90px;
+ margin-bottom: 22px;
+ font-family: "Sen";
+}
 
 .main {
     display: flex;
-    margin-top: 150px;
+    margin-top: 70px;
     justify-content: center;
     align-items: center;
     border: 1px solid;
@@ -37,7 +51,7 @@
   .working-days-title {
     box-sizing: border-box;
     flex: 0 0 auto;
-    font: 400 20px Sen;
+    font: 400 20px "Sen";
     color: white;
     opacity: 0.6;
   }
@@ -78,14 +92,14 @@
   .notarial-title {
     box-sizing: border-box;
     flex: 0 0 auto;
-    font: 700 24px Sen;
+    font: 700 24px "Sen";
     color: white;
   }
   .working-hours {
     box-sizing: border-box;
     flex: 0 0 auto;
     margin-top: 47px;
-    font: 700 24px Sen;
+    font: 700 24px "Sen";
     color: white;
   }
   .contact-info {
@@ -103,7 +117,7 @@
     box-sizing: border-box;
     flex: 0 0 auto;
     margin-top: 47px;
-    font: 400 20px Sen;
+    font: 400 20px "Sen";
     color: white;
     opacity: 0.6;
   }
@@ -112,7 +126,7 @@
     flex: 0 0 auto;
     max-width: 251px;
     margin-top: 47px;
-    font: 400 16px/28px Sen;
+    font: 400 16px/28px "Sen";
     color: white;
     opacity: 0.6;
   }
@@ -148,7 +162,7 @@
   .count-label {
     box-sizing: border-box;
     flex: 0 0 auto;
-    font: 700 56px Sen;
+    font: 700 56px "Sen";
     color: #232536;
     text-align: center;
     letter-spacing: -0.03571428571428571em;
@@ -157,7 +171,7 @@
     box-sizing: border-box;
     flex: 0 0 auto;
     margin-left: 77px;
-    font: 700 56px Sen;
+    font: 700 56px "Sen";
     color: #232536;
     text-align: center;
     letter-spacing: -0.03571428571428571em;
@@ -184,13 +198,13 @@
   .experience-years {
     box-sizing: border-box;
     flex: 0 0 auto;
-    font: 700 18px Sen;
+    font: 700 18px "Sen";
     color: #232536;
   }
   .satisfied-clients {
     box-sizing: border-box;
     flex: 0 0 auto;
     margin-left: 20.5px;
-    font: 700 18px Sen;
+    font: 700 18px "Sen";
     color: #232536;
   }

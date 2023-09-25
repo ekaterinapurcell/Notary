@@ -6,6 +6,8 @@ const Map = () => {
   const center = [47.952762, 27.559078]; // Coordonatele centrului hărții
 
   return (
+    <div> 
+      <h1 className='titlumap'>Aici ne găsești</h1>
     <div className="mapcontainer">
       <MapContainer
         className="react-leaflet"
@@ -22,6 +24,7 @@ const Map = () => {
           <Popup>Aici poate fi conținutul marker-ului.</Popup>
         </Marker>
       </MapContainer>
+    </div>
     </div>
   );
 };

@@ -3,6 +3,7 @@ import NavBar from "./Components/NavBar";
 import Welcome from "./Components/Welcome";
 import Orar from "./Components/Orar";
 import Recenzii from "./Components/Recenzii";
+import Intrebari from "./Components/Intrebari";
 import Map from "./Components/Map";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
@@ -13,8 +14,10 @@ function App() {
       <NavBar />
       <Welcome />
       <Orar />
-      <Rencenzii />
-     
+      <Recenzii />
+      <Intrebari />
+
+
        <Map/>
     ``
     </div>

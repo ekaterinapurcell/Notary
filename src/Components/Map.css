@@ -11,3 +11,15 @@
   justify-content: center;
   margin-top: 5rem ;
 }
+
+.titlumap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ flex-shrink: 0;
+ margin-left: 90px;
+ margin-right: 90px;
+ margin-top: 70px;
+ margin-bottom: 22px;
+ font-family: "Sen";
+}
