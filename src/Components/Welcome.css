@@ -1,37 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700&display=swap");
 
 .welcome-section {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 28px;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
-  min-width: 1440px;
-  height: 40rem;
-  padding: 204px 48px 160px 575px;
+  width: 100%;
+  padding: 0;
   background: radial-gradient(
     71.93% 80.99% at 74.58% 0%,
     rgba(0, 0, 0, 0) 0%,
     black 100%
   );
   background-image: url("/src/Images/welcome.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
+
 .welcome-message1 {
   box-sizing: border-box;
   flex: 0 0 auto;
-  font: 700 56px Sen;
+  font: 700 56px "Sen";
   color: white;
   letter-spacing: -0.03571428571428571em;
+  margin-top: 204px;
+  margin-left: 575px;
+  margin-right: 50px;
+  text-transform: none;
+  width: 788px;
 }
 .welcome-message {
   box-sizing: border-box;
   flex: 0 0 auto;
-  max-width: 788px;
-  font: 400 20px/30px Sen;
+  width: 788px;
+  height: 180px;
+  font: 400 20px/30px "Sen";
   color: white;
+  margin-top: 10px;
+  margin-left: 575px;
+  margin-right: 50px;
+  text-transform: none;
+  text-align: justify;
 }
 .welcome-button {
   box-sizing: border-box;
@@ -39,9 +51,23 @@
   flex: 0 0 auto;
   width: 303px;
   height: 56px;
-  font: 700 18px Sen;
+  font: 700 18px "Sen";
   color: #232536;
   cursor: pointer;
   background: #ffd050;
   border: none;
+  margin-bottom: 160px;
+  margin-left: 45px;
+  text-transform: none;
+  text-align: justify;
+  display: inline-flex;
+padding: 16px 48px;
+align-items: flex-start;
+gap: 12px;
+transition: 0.5s;
 }
+
+.welcome-button:hover {
+  background: #e4b42f;
+  transition: 0.5s;
+} 

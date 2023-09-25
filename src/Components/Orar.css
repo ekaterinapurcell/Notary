@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sen:wght@400;500&display=swap');
 
+.allmain {
+display: flex;
+justify-content: center;
+}
 
 .titluorar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
  flex-shrink: 0;
  margin-left: 90px;
  margin-right: 90px;
  margin-top: 90px;
- margin-bottom: 22px;
+ margin-bottom: 0px;
  font-family: "Sen";
 }
 
 .main {
-    display: flex;
-    margin-top: 70px;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid;
-    border-style: ridge;
+  width: 1340px;
+  margin-top: 70px;
+  justify-content: center; 
+  align-items: center;
+  border: 1px solid;
+  border-style: ridge;
+  display: flex;
+  margin-left: 90px; 
+  margin-right: auto;
 }
 
 .contact-info-section {

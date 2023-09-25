@@ -13,7 +13,6 @@ const Map = () => {
         className="react-leaflet"
         center={center}
         zoom={15}
-        style={{ height: "400px", width: "600px" }}
       >
         <TileLayer
           className="react-leaflet"
