@@ -1,0 +1,13 @@
+.leaflet-container {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  width: 1000px;
+  border-radius: 20px;
+}
+.mapcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem ;
+}

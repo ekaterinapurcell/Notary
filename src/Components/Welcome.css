@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;500&display=swap");
+
+.welcome-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: stretch;
+  justify-content: center;
+  min-width: 1440px;
+  height: 40rem;
+  padding: 204px 48px 160px 575px;
+  background: radial-gradient(
+    71.93% 80.99% at 74.58% 0%,
+    rgba(0, 0, 0, 0) 0%,
+    black 100%
+  );
+  background-image: url("/src/Images/welcome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome-message1 {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  font: 700 56px Sen;
+  color: white;
+  letter-spacing: -0.03571428571428571em;
+}
+.welcome-message {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  max-width: 788px;
+  font: 400 20px/30px Sen;
+  color: white;
+}
+.welcome-button {
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 auto;
+  width: 303px;
+  height: 56px;
+  font: 700 18px Sen;
+  color: #232536;
+  cursor: pointer;
+  background: #ffd050;
+  border: none;
+}

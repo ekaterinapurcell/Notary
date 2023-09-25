@@ -1,0 +1,196 @@
+
+.main {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-style: ridge;
+}
+
+.contact-info-section {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 106px 54px 117px;
+    background: #6d6e76;
+  }
+  .notarial-info {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .weekday-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .working-days-title {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    font: 400 20px Sen;
+    color: white;
+    opacity: 0.6;
+  }
+  .work-days-divider {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 252px;
+    margin-top: 62px;
+    border-top: 2px solid white;
+  }
+  .contact-section {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    margin-left: 34px;
+  }
+  .working-hours-contact-info {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-top: 34px;
+  }
+  .time-contact-section {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 49.76%;
+  }
+  .notarial-title {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    font: 700 24px Sen;
+    color: white;
+  }
+  .working-hours {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    margin-top: 47px;
+    font: 700 24px Sen;
+    color: white;
+  }
+  .contact-info {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 50.24%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .contact-info3 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    margin-top: 47px;
+    font: 400 20px Sen;
+    color: white;
+    opacity: 0.6;
+  }
+  .address {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    max-width: 251px;
+    margin-top: 47px;
+    font: 400 16px/28px Sen;
+    color: white;
+    opacity: 0.6;
+  }
+  /* ALTBLOCK */
+
+  .experience-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 181px 82px 226px 88px;
+    background: #ffd050;
+  }
+  .experience-stats {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .stat-block {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 30.5px;
+    padding-left: 30.5px;
+  }
+  .count-label {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    font: 700 56px Sen;
+    color: #232536;
+    text-align: center;
+    letter-spacing: -0.03571428571428571em;
+  }
+  .count-label1 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    margin-left: 77px;
+    font: 700 56px Sen;
+    color: #232536;
+    text-align: center;
+    letter-spacing: -0.03571428571428571em;
+  }
+  .border-top-divider {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: stretch;
+    width: 343px;
+    margin-top: 35px;
+    border-top: 10px solid #6d6e76;
+  }
+  .experience-and-satisfaction {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 39px;
+  }
+  .experience-years {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    font: 700 18px Sen;
+    color: #232536;
+  }
+  .satisfied-clients {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    margin-left: 20.5px;
+    font: 700 18px Sen;
+    color: #232536;
+  }
