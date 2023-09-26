@@ -55,6 +55,12 @@ function ServiciiPage() {
               contract1={item.contract1}
               contract2={item.contract2}
               contract3={item.contract3}
+              contract4={item.contract4}
+              contract5={item.contract5}
+              contract6={item.contract6}
+              contract7={item.contract7}
+              contract8={item.contract8}
+              contract9={item.contract9}
             />
           ))}
         </div>

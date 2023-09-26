@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@500;600&family=Sora:wght@400;500;700&display=swap");
+
+.MainFooter {
+    background: var(--Black, #232536);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+
+.titlufooter {
+    /*    KATIUSHA LUTSHAYA <3  */
+    margin-top: 44px;
+    margin-left: 50px;
+    color: #FFF;
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 116.667% */
+}
+
+.numarfooter {
+    margin-top: 44px;
+    margin-right: 50px;
+    color: var(--Light, #FFF);
+    text-align: center;
+    font-family: "Sen";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+
+}
+
+.firstpart {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.liniecumat {
+
+    margin-left: 94px;
+    margin-right: 94px;
+    margin-top: 30px;
+    opacity: 0.1;
+    background: var(--Light, #FFF);
+}
+
+
+.bottompart {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.facebook {
+    width: 25px;
+    height: 25px;
+    margin-right: 100px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+
+
+
+.paragblock {
+    margin-left: 40px;
+    color: #FFF;
+    font-family: "Sen";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+    opacity: 0.7;
+    text-transform: none;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.par {
+    margin-top: 7px;
+    text-align: left;
+    text-transform: none;
+
+}
+
+.orarfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    color: var(--Light, #FFF);
+    text-align: center;
+    font-family: "Sen";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 20px;
+}

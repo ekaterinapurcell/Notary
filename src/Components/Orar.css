@@ -1,214 +1,220 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sen:wght@400;500&display=swap');
 
-.allmain {
-display: flex;
-justify-content: center;
-}
-
 .titluorar {
- flex-shrink: 0;
- margin-left: 90px;
- margin-right: 90px;
- margin-top: 90px;
- margin-bottom: 0px;
- font-family: "Sen";
+  margin-top: 50px;
+  margin-left: 90px;
+  color: var(--Black, #232536);
+  font-family: "Sen", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-align: left;
 }
 
-.main {
-  width: 1340px;
-  margin-top: 70px;
-  justify-content: center; 
-  align-items: center;
-  border: 1px solid;
-  border-style: ridge;
+.bordura {
+  border: 1px solid var(--Medium-grey, #d9dade);
   display: flex;
-  margin-left: 90px; 
-  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.contact-info-section {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    padding: 106px 54px 117px;
-    background: #6d6e76;
-  }
-  .notarial-info {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .weekday-container {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-  }
-  .working-days-title {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    font: 400 20px "Sen";
-    color: white;
-    opacity: 0.6;
-  }
-  .work-days-divider {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    width: 252px;
-    margin-top: 62px;
-    border-top: 2px solid white;
-  }
-  .contact-section {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    margin-left: 34px;
-  }
-  .working-hours-contact-info {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: flex-start;
-    margin-top: 34px;
-  }
-  .time-contact-section {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    width: 49.76%;
-  }
-  .notarial-title {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    font: 700 24px "Sen";
-    color: white;
-  }
-  .working-hours {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    margin-top: 47px;
-    font: 700 24px "Sen";
-    color: white;
-  }
-  .contact-info {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    width: 50.24%;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .contact-info3 {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    margin-top: 47px;
-    font: 400 20px "Sen";
-    color: white;
-    opacity: 0.6;
-  }
-  .address {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    max-width: 251px;
-    margin-top: 47px;
-    font: 400 16px/28px "Sen";
-    color: white;
-    opacity: 0.6;
-  }
-  /* ALTBLOCK */
+.orarmain {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  gap: 6em;
+}
 
-  .experience-container {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 181px 82px 226px 88px;
-    background: #ffd050;
-  }
-  .experience-stats {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .stat-block {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding-right: 30.5px;
-    padding-left: 30.5px;
-  }
-  .count-label {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    font: 700 56px "Sen";
-    color: #232536;
-    text-align: center;
-    letter-spacing: -0.03571428571428571em;
-  }
-  .count-label1 {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    margin-left: 77px;
-    font: 700 56px "Sen";
-    color: #232536;
-    text-align: center;
-    letter-spacing: -0.03571428571428571em;
-  }
-  .border-top-divider {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    align-self: stretch;
-    width: 343px;
-    margin-top: 35px;
-    border-top: 10px solid #6d6e76;
-  }
-  .experience-and-satisfaction {
-    box-sizing: border-box;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-top: 39px;
-  }
-  .experience-years {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    font: 700 18px "Sen";
-    color: #232536;
-  }
-  .satisfied-clients {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    margin-left: 20.5px;
-    font: 700 18px "Sen";
-    color: #232536;
-  }
+.first-container {
+  justify-content: center;
+  display: flex;
+  margin: 27px;
+  width: 600px;
+  height: 500px;
+  background: #6D6E76;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+
+.zile,
+.contacteaza {
+  width: 250px;
+  margin-right: 20px;
+}
+
+.zileleparagraf {
+  color: var(--Light, #FFF);
+  font-family: "Sen";
+  font-weight: 400;
+  font-size: 28px;
+  opacity: 0.6;
+  margin-bottom: 100px;
+  text-transform: none;
+  text-align: left;
+  padding-left: 30px;
+}
+
+
+.zileh {
+  width: 250px;
+  height: 70.899px;
+  flex-shrink: 0;
+  color: var(--Light, #FFF);
+  font-family: "Sen";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+  text-align: left;
+  padding-left: 30px;
+}
+
+
+.oreh {
+  width: 250px;
+  height: 71px;
+  flex-shrink: 0;
+  color: var(--Light, #FFF);
+  font-family: "Sen";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+  text-align: left;
+  padding-left: 30px;
+}
+
+.adresaorar {
+  width: 300px;
+  height: 123.872px;
+  flex-shrink: 0;
+  color: var(--Light, #FFF);
+  font-family: "Sen";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+  opacity: 0.6;
+  text-transform: none;
+  padding-left: 30px;
+  text-align: left;
+}
+
+.telefonparagraf {
+  color: var(--Light, #FFF);
+  font-family: "Sen";
+  font-weight: 400;
+  font-size: 28px;
+  opacity: 0.6;
+  margin-bottom: 100px;
+  text-transform: none;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.telefonorar {
+  width: 250px;
+  height: 70.899px;
+  flex-shrink: 0;
+  color: var(--Light, #FFF);
+  font-family: "Sen";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+  text-align: left;
+  padding-left: 30px;
+}
+
+.postaorar {
+  width: 300px;
+  height: 123.872px;
+  flex-shrink: 0;
+  color: var(--Light, #FFF);
+  font-family: "Sen";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+  opacity: 0.6;
+  text-transform: none;
+  padding-left: 30px;
+  padding-top: 70px;
+  text-align: left;
+}
+
+.second-container {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 590px;
+  height: 555px;
+  flex-shrink: 0;
+  background: var(--Yellow, #FFD050);
+}
+
+.cifreblock {
+  margin: 30px;
+  display: flex;
+  gap: 5em;
+}
+
+.cuvinteblock {
+  margin: 30px;
+  display: flex;
+  gap: 4em;
+}
+
+.experienta {
+  color: var(--Black, #232536);
+  text-align: center;
+  /* Display */
+  font-family: "Sen";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  /* 114.286% */
+  letter-spacing: -2px;
+}
+
+.clienti {
+  color: var(--Black, #232536);
+  text-align: center;
+
+  /* Display */
+  font-family: "Sen";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  /* 114.286% */
+  letter-spacing: -2px;
+}
+
+.textexperienta {
+  color: var(--Black, #232536);
+  font-family: "Sen";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  /* 155.556% */
+}
+
+.linieorar {
+  width: 375px;
+}

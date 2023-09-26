@@ -6,7 +6,26 @@ export default function Card({
   contract1,
   contract2,
   contract3,
+  contract4,
+  contract5,
+  contract6,
+  contract7,
+  contract8,
+  contract9,
 }) {
+
+  const contracts = [
+    contract1,
+    contract2,
+    contract3,
+    contract4,
+    contract5,
+    contract6,
+    contract7,
+    contract8,
+    contract9,
+  ].filter((contract) => contract);
+
   return (
     <div className="cartocika">
       <div className="servicename">
@@ -18,9 +37,9 @@ export default function Card({
         <hr className="linie" />
 
         <ol className="documente">
-          <li>{contract1}</li>
-          <li> {contract2}</li>
-          <li> {contract3}</li>
+          {contracts.map((contract, index) => (
+            <li key={index}>{contract}</li>
+          ))}
         </ol>
       </div>
     </div>

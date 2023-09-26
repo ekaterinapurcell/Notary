@@ -1,66 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sen:wght@400;500&display=swap');
 
-.titluintrebari{
-display: flex;
-justify-content: center;
-align-items: center;
- flex-shrink: 0;
- margin-left: 90px;
- margin-right: 90px;
- margin-top: 70px;
- margin-bottom: 22px;
- font-family: "Sen";
+.titluintrebari {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 70px;
+  margin-bottom: 22px;
+  font-family: "Sen";
 }
 
 .allintrebari {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 
 }
 
 .coloane {
-    text-align: center; 
-    justify-content: center;
-    align-items: center;
-    margin-left: 90px;
-    margin-right: 60px;
-  }
-  
-  
-  .coloane li {
-    display: inline-block; 
-  
-    margin-right: 32px; 
-    padding: 10px; 
-    background-color: #f0f0f0; 
-    border: 1px solid #ddd; 
-    vertical-align: top; 
-    box-sizing: border-box;
-  }
-  
-  .coloane h3 {
-    color: var(--Black, #232536);
-font-family: "Sen";
-font-size: 28px;
-font-style: normal;
-font-weight: 700;
-line-height: 40px; /* 142.857% */
-letter-spacing: -1px;
-    margin-bottom: 5px; 
-  }
-  
-  .coloane p {
-    color: var(--Black, #232536);
-font-family: "Inter";
-text-transform: lowercase;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 175% */
-  }
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  margin-right: 60px;
+}
 
- 
+
+.coloane li {
+  display: inline-block;
+
+  margin-right: 32px;
+  padding: 10px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.coloane h3 {
+  color: var(--Black, #232536);
+  font-family: "Sen";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  /* 142.857% */
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+}
+
+.coloane p {
+  color: var(--Black, #232536);
+  font-family: "Inter";
+  text-transform: lowercase;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+}
+
+
 .dimensimagine {
-width: 1340px;
-height: auto;
+  width: 1340px;
+  height: auto;
+}
+
+.pîî {
+  color: var(--Black, #232536);
+
+  /* Body 1 */
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+  opacity: 0.7;
+}
+
+.butoane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+
+}
+
+.knopkatuda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  border: none;
+  color: var(--Medium-grey, #6D6E76);
+  text-align: center;
+
+  /* Heading H4 */
+  font-family: Sen;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+  cursor: pointer;
+}
+
+.knopkasiuda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  border: none;
+  color: var(--Black, #232536);
+  text-align: center;
+
+  /* Heading H3 */
+  font-family: Sen;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  /* 142.857% */
+  letter-spacing: -1px;
+  cursor: pointer;
+}
+
+.TUDA {
+  width: 25px;
+  height: 25px;
+}
+
+.SIUDA {
+  width: 25px;
+  height: 25px;
 }

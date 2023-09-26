@@ -1,50 +1,47 @@
 import React from "react";
 import "./Orar.css";
+import Linieorar from "../Images/linieorar.png";
+
 export default function orar() {
   return (
-    <div className="allmain">
-      <h1 className="titluorar"> Orar de lucru </h1>
-      <div className="main">
-        <div className="oraru">
-          <div className={`contact-info-section`}>
-            <div className={`notarial-info`}>
-              <div className={`weekday-container`}>
-                <p className={`working-days-title`}>Zilele de lucru</p>
-                <div className={`work-days-divider`} />
-              </div>
-              <div className={`contact-section`}>
-                <p className={`working-days-title`}>Contactează-ne</p>
-                <div className={`work-days-divider`} />
-              </div>
+
+    <div className="mainmain">
+      <h1 className="titluorar"> Orar de lucru</h1>
+      <div className="orarmain">
+
+        <div className="bordura">
+          <div className="first-container">
+            <div className="zile">
+              <p className="zileleparagraf">Zilele de lucru</p>
+              <h3 className="zileh">Luni-Vineri</h3>
+              <h3 className="oreh">9:00-17:00</h3>
+              <p className="adresaorar">Republica Moldova, Rîșcani, MD-5600, str. Independenței 20</p>
             </div>
-            <div className={`working-hours-contact-info`}>
-              <div className={`time-contact-section`}>
-                <p className={`notarial-title`}>Luni - Vineri</p>
-                <p className={`working-hours`}>9:00 - 17:00 </p>
-              </div>
-              <div className={`contact-info`}>
-                <p className={`notarial-title`}>0256-2-25-56</p>
-                <p className={`contact-info3`}>hello@finsweet.com</p>
-              </div>
+
+
+            <div className="contacteaza">
+              <p className="telefonparagraf">Contactează-ne</p>
+              <h3 className="telefonorar">0256-2-25-56</h3>
+              <p className="postaorar">hello@finsweet.com</p>
             </div>
-            <p className={`address`}>
-              Republica Moldova, Rîșcani, MD-5600, str. Independenței 20
-            </p>
+
           </div>
         </div>
+        <div className="second-container">
 
-        <div className={`experience-container`}>
-          <div className={`experience-stats`}>
-            <div className={`stat-block`}>
-              <p className={`count-label`}>12+</p>
-              <p className={`count-label1`}>18K+</p>
-            </div>
-            <div className={`border-top-divider`} />
+          <div className="cifreblock">
+            <h1 className="experienta">12+</h1>
+            <h1 className="clienti">18K+</h1>
           </div>
-          <div className={`experience-and-satisfaction`}>
-            <p className={`experience-years`}>Ani de experiență</p>
-            <p className={`satisfied-clients`}>Clienți satisfăcuți</p>
+
+          <img src={Linieorar} className="linieorar" />
+
+          <div className="cuvinteblock">
+            <h4 className="textexperienta">Ani de experiență</h4>
+            <h4 className="textexperienta">Clienți satisfăcuți</h4>
           </div>
+
+
         </div>
       </div>
     </div>

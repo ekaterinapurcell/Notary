@@ -6,6 +6,7 @@ import Recenzii from "./Components/Recenzii";
 import Intrebari from "./Components/Intrebari";
 import Map from "./Components/Map";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import Footer from "./Components/Footer";
 
 function App() {
   const center = [51.505, -0.09]; // Coordonatele centrului hărții
@@ -19,7 +20,8 @@ function App() {
 
 
        <Map/>
-    ``
+    
+    <Footer/>
     </div>
   );
 }
