@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sen:wght@400;500&display=swap');
 
+
 .titluorar {
   margin-top: 50px;
   margin-left: 90px;
@@ -54,7 +55,7 @@
   font-weight: 400;
   font-size: 28px;
   opacity: 0.6;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   text-transform: none;
   text-align: left;
   padding-left: 30px;
@@ -74,6 +75,7 @@
   /* 133.333% */
   text-align: left;
   padding-left: 30px;
+  margin-top: 40px;
 }
 
 
@@ -94,11 +96,11 @@
 
 .adresaorar {
   width: 300px;
-  height: 123.872px;
+  height: auto;
   flex-shrink: 0;
   color: var(--Light, #FFF);
   font-family: "Sen";
-  font-size: 16px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -109,13 +111,31 @@
   text-align: left;
 }
 
+.stradaorar {
+  width: 300px;
+  height: auto;
+  flex-shrink: 0;
+  color: var(--Light, #FFF);
+  font-family: "Sen";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+  opacity: 0.6;
+  text-transform: none;
+  padding-left: 30px;
+  text-align: left;
+  margin-top: 0px;
+}
+
 .telefonparagraf {
   color: var(--Light, #FFF);
   font-family: "Sen";
   font-weight: 400;
   font-size: 28px;
   opacity: 0.6;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   text-transform: none;
   text-align: left;
   padding-left: 30px;
@@ -134,6 +154,7 @@
   /* 133.333% */
   text-align: left;
   padding-left: 30px;
+  margin-top: 40px;
 }
 
 .postaorar {
@@ -142,7 +163,7 @@
   flex-shrink: 0;
   color: var(--Light, #FFF);
   font-family: "Sen";
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -217,4 +238,8 @@
 
 .linieorar {
   width: 375px;
+}
+
+.liniutaa {
+  width: 200px;
 }

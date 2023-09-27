@@ -1,5 +1,7 @@
 import React from "react";
 import "./Welcome.css";
+import Siuda from "../Images/strelkasiuda.svg"
+import { Link } from "react-router-dom";
 
 export default function Welcome() {
   return (
@@ -15,7 +17,9 @@ export default function Welcome() {
         afacerile dumneavoastră sunt tratate cu profesionalism și atenție
         sporită la detalii.
       </p>
-      <button className="welcome-button">Vezi serviciile noastre</button>
+      <Link to="Servicii">
+        <button className="welcome-button">Vezi serviciile noastre  <img className='SIUDA' src={Siuda} alt="strelkasiuda" /> </button>
+      </Link>
     </div>
   );
 }

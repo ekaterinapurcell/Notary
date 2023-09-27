@@ -9,11 +9,9 @@
   justify-content: center;
   width: 100%;
   padding: 0;
-  background: radial-gradient(
-    71.93% 80.99% at 74.58% 0%,
-    rgba(0, 0, 0, 0) 0%,
-    black 100%
-  );
+  background: radial-gradient(71.93% 80.99% at 74.58% 0%,
+      rgba(0, 0, 0, 0) 0%,
+      black 100%);
   background-image: url("/src/Images/welcome.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,6 +30,7 @@
   text-transform: none;
   width: 788px;
 }
+
 .welcome-message {
   box-sizing: border-box;
   flex: 0 0 auto;
@@ -45,6 +44,7 @@
   text-transform: none;
   text-align: justify;
 }
+
 .welcome-button {
   box-sizing: border-box;
   display: block;
@@ -56,18 +56,20 @@
   cursor: pointer;
   background: #ffd050;
   border: none;
+  border-radius: 10px;
   margin-bottom: 160px;
   margin-left: 45px;
   text-transform: none;
   text-align: justify;
   display: inline-flex;
-padding: 16px 48px;
-align-items: flex-start;
-gap: 12px;
-transition: 0.5s;
+  padding: 16px 37px;
+  align-items: flex-start;
+  gap: 12px;
+  transition: 0.5s;
+  font-size: 18px;
 }
 
 .welcome-button:hover {
   background: #e4b42f;
   transition: 0.5s;
-} 
+}

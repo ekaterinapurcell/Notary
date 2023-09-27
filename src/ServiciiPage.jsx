@@ -6,13 +6,14 @@ import axios from "axios";
 import Lottie from "lottie-react";
 import NoFound from "./Images/Animation - 1695204207193.json";
 
+
 function ServiciiPage() {
   const [items, setItems] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     axios
-      .get("https://650719523a38daf4803f1daa.mockapi.io/Services")
+      .get("https://650719523a38daf4803f1daa.mockapi.io/AllServices")
       .then((res) => {
         setItems(res.data);
       });

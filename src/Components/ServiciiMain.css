@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sen:wght@400;500&display=swap');
+
+.SERVICII {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px;
+
+}
+
+
+.titlikservicii {
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--Black, #232536);
+    font-family: "Sen";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+
+
+.bothcategorii {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.acte-personale {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite trecerea la o altă linie când spațiul este insuficient */
+    justify-content: flex-start;
+    /* Aliniere la stânga */
+
+    width: 655px;
+}
+
+.content-block {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite trecerea la o altă linie când spațiul este insuficient */
+    justify-content: space-between;
+    /* Separarea la distanță egală între carduri */
+    width: 100%;
+}
+
+.card-servicii {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: calc(50% - 10px);
+    /* Acesta este calculul pentru a așeza câte două carduri pe un rând cu spațiu între ele */
+    height: 140px;
+    background: var(--Light, #FFF);
+    border: 1px solid var(--Medium-grey, #d9dade);
+    transition: 0.5s;
+}
+
+.card-servicii:hover {
+    background: rgba(255, 208, 80, 0.50);
+    transition: 0.5s;
+}
+
+
+
+.btnServicii {
+    width: 655px;
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    background: var(--Yellow, #FFD050);
+    color: var(--Black, #232536);
+    text-align: center;
+    font-family: "Sen";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 125% */
+    letter-spacing: -1px;
+}
+
+.denumirica {
+    color: var(--Black, #232536);
+    text-align: center;
+    font-family: "Sen";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 136.364% */
+    letter-spacing: -1px;
+
+}
+
+
+.buton-pret {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 52px;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--Yellow, #FFD050);
+    color: var(--Black, #232536);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 105.263% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}

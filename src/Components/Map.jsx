@@ -8,9 +8,11 @@ const Map = () => {
   const center = [47.952762, 27.559078]; // Coordonatele centrului hărții
 
   return (
-    <div >
+    <div className="totuldinmap">
 
-      <h1 className='titlumap'>Aici ne găsești</h1>
+      <div className="shonibudi">
+        <h1 className='titlumap'>Aici ne găsești</h1>
+      </div>
 
       <div className="mapmain">
         <div className="mapcontainer">

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Orar.css";
 import Linieorar from "../Images/linieorar.png";
+import LinieZile from "../Images/liniutaa.png"
+import LinieContact from "../Images/liniutaa.png"
 
 export default function orar() {
   return (
@@ -13,14 +15,17 @@ export default function orar() {
           <div className="first-container">
             <div className="zile">
               <p className="zileleparagraf">Zilele de lucru</p>
+              <img src={LinieZile} className="liniutaa" />
               <h3 className="zileh">Luni-Vineri</h3>
               <h3 className="oreh">9:00-17:00</h3>
-              <p className="adresaorar">Republica Moldova, Rîșcani, MD-5600, str. Independenței 20</p>
+              <p className="adresaorar">Republica Moldova, Rîșcani </p>
+              <p className="stradaorar"> MD-5600, str. Independenței 20</p>
             </div>
 
 
             <div className="contacteaza">
               <p className="telefonparagraf">Contactează-ne</p>
+              <img src={LinieContact} className="liniutaa" />
               <h3 className="telefonorar">0256-2-25-56</h3>
               <p className="postaorar">hello@finsweet.com</p>
             </div>

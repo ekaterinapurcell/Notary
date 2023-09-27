@@ -24,14 +24,26 @@
   margin-top: 5rem;
 }
 
-.titlumap {
+.shonibudi {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: left;
+  width: 1440px;
+}
+
+.titlumap {
+
+  align-items: left !important;
   flex-shrink: 0;
   margin-left: 90px;
   margin-right: 90px;
   margin-top: 70px;
   margin-bottom: 22px;
   font-family: "Sen";
+}
+
+.totuldinmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

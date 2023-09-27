@@ -10,13 +10,14 @@ export default function NavBar() {
       <ul className="menu">
 
         <Link to="/">
-        <li className="menuitem">Acasa</li>
+          <li className="menuitem">Acasa</li>
         </Link>
         <li className="menuitem">Orarul de lucru</li>
         <Link to="Servicii">
           {" "}
           <li className="menuitem">Servicii</li>
         </Link>
+        <li className="menuitem"> Contacte</li>
         <li className="menuitem"> 0256-2-25-58</li>
       </ul>
     </div>
