@@ -120,10 +120,18 @@
     border-radius: 50px;
     height: 60px;
     flex-shrink: 0;
-    background-color: #232536;
+    background-color: #47495a;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 }
+
+.btnrec:hover {
+    transition: 0.5s;
+    background-color: #232536;
+   
+}
+
 
 .ciuvak {
     margin-top: 60px;
