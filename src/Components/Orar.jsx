@@ -27,7 +27,7 @@ export default function orar() {
               <p className="telefonparagraf">Contactează-ne</p>
               <img src={LinieContact} className="liniutaa" />
               <h3 className="telefonorar">0256-2-25-56</h3>
-              <p className="postaorar">hello@finsweet.com</p>
+              <p className="postaorar">dmpurcel@gmail.com</p>
             </div>
 
           </div>
@@ -35,8 +35,8 @@ export default function orar() {
         <div className="second-container">
 
           <div className="cifreblock">
-            <h1 className="experienta">12+</h1>
-            <h1 className="clienti">18K+</h1>
+            <h1 className="experienta">20+</h1>
+            <h1 className="clienti">50K+</h1>
           </div>
 
           <img src={Linieorar} className="linieorar" />

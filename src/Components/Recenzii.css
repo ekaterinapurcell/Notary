@@ -85,4 +85,59 @@
     /* 133.333% */
 }
 
-.stanga {}
+.avatar {
+    width: 48px;
+    height: 48px;
+}
+
+.stanga {
+    display: flex;
+    justify-content: center;
+
+}
+
+.numeavatar {
+    margin-top: 5px;
+}
+
+.dreapta {
+    margin-left: 60px;
+}
+
+.btnreca {
+    width: 50px;
+    border-radius: 50px;
+    height: 48px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btnrec {
+    width: 60px;
+    border-radius: 50px;
+    height: 60px;
+    flex-shrink: 0;
+    background-color: #232536;
+    border: none;
+    cursor: pointer;
+}
+
+.ciuvak {
+    margin-top: 60px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.tudarec {
+    width: 25px;
+    height: 25px;
+}
+
+.siudarec {
+    width: 45px;
+    height: 25px;
+}

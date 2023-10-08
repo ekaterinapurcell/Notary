@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="MainFooter">
       <div className="firstpart">
-        <h1 className="titlufooter">Birou Notarial "Ludmila Purcel"</h1>
+        <h1 className="titlufooter">Biroul Notarial "Ludmila Purcel"</h1>
         <p className="numarfooter">0256-2-25-56</p>
       </div>
 

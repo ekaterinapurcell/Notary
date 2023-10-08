@@ -21,7 +21,7 @@ function App() {
       <Intrebari />
 
 
-      <Map />
+      <Map id='Map' />
 
       <Footer />
     </div>
