@@ -8,7 +8,9 @@ export default function orar() {
   return (
 
     <div className="mainmain">
-      <h1 className="titluorar"> Orar de lucru</h1>
+      <div className="boxforhash"> 
+      <h1 className="titluorar"> Orar de lucru</h1>\
+      </div>
       <div className="orarmain">
 
         <div className="bordura">

@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sen:wght@400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Sen:wght@400;500&display=swap");
 
 .titluorar {
   margin-top: 50px;
-  margin-left: 90px;
+  margin-left: 170px;
   color: var(--Black, #232536);
   font-family: "Sen", sans-serif;
   font-size: 48px;
@@ -12,13 +11,25 @@
   letter-spacing: -2px;
   text-align: left;
 }
+.boxforhash {
+  width: 1680px;
+  
+  text-align: left;
+  justify-content: center;
+}
 
 .bordura {
   border: 1px solid var(--Medium-grey, #d9dade);
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+.mainmain {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .orarmain {
@@ -37,11 +48,10 @@
   margin: 27px;
   width: 600px;
   height: 500px;
-  background: #6D6E76;
+  background: #6d6e76;
   padding: 30px;
   box-sizing: border-box;
 }
-
 
 .zile,
 .contacteaza {
@@ -50,7 +60,7 @@
 }
 
 .zileleparagraf {
-  color: var(--Light, #FFF);
+  color: var(--Light, #fff);
   font-family: "Sen";
   font-weight: 400;
   font-size: 28px;
@@ -61,12 +71,11 @@
   padding-left: 30px;
 }
 
-
 .zileh {
   width: 250px;
   height: 70.899px;
   flex-shrink: 0;
-  color: var(--Light, #FFF);
+  color: var(--Light, #fff);
   font-family: "Sen";
   font-size: 24px;
   font-style: normal;
@@ -78,12 +87,11 @@
   margin-top: 40px;
 }
 
-
 .oreh {
   width: 250px;
   height: 71px;
   flex-shrink: 0;
-  color: var(--Light, #FFF);
+  color: var(--Light, #fff);
   font-family: "Sen";
   font-size: 24px;
   font-style: normal;
@@ -98,7 +106,7 @@
   width: 300px;
   height: auto;
   flex-shrink: 0;
-  color: var(--Light, #FFF);
+  color: var(--Light, #fff);
   font-family: "Sen";
   font-size: 11px;
   font-style: normal;
@@ -115,7 +123,7 @@
   width: 300px;
   height: auto;
   flex-shrink: 0;
-  color: var(--Light, #FFF);
+  color: var(--Light, #fff);
   font-family: "Sen";
   font-size: 11px;
   font-style: normal;
@@ -130,7 +138,7 @@
 }
 
 .telefonparagraf {
-  color: var(--Light, #FFF);
+  color: var(--Light, #fff);
   font-family: "Sen";
   font-weight: 400;
   font-size: 28px;
@@ -145,7 +153,7 @@
   width: 250px;
   height: 70.899px;
   flex-shrink: 0;
-  color: var(--Light, #FFF);
+  color: var(--Light, #fff);
   font-family: "Sen";
   font-size: 24px;
   font-style: normal;
@@ -161,7 +169,7 @@
   width: 300px;
   height: 123.872px;
   flex-shrink: 0;
-  color: var(--Light, #FFF);
+  color: var(--Light, #fff);
   font-family: "Sen";
   font-size: 14px;
   font-style: normal;
@@ -176,7 +184,6 @@
 }
 
 .second-container {
-
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -184,7 +191,7 @@
   width: 590px;
   height: 555px;
   flex-shrink: 0;
-  background: var(--Yellow, #FFD050);
+  background: var(--Yellow, #ffd050);
 }
 
 .cifreblock {
